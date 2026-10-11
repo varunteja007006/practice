@@ -55,7 +55,7 @@ gh api 'repos/UPSTREAM/REPO/compare/UPSTREAM_BRANCH...FORK_OWNER:FORK_BRANCH' \
 ## 3. Sync safely
 
 Try a normal sync first; without `--force`, GitHub will not overwrite a
- diverged branch:
+diverged branch:
 
 ```sh
 gh repo sync FORK_OWNER/REPO --branch BRANCH
