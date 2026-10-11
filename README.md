@@ -7,6 +7,7 @@ sample code snippets and concept definitions when I need them.
 
 | Folder           | What's inside                                                       |
 | ---------------- | ------------------------------------------------------------------- |
+| `ai/`            | AI notes and reusable skills, including GitHub CLI workflows        |
 | `assets/`        | Reference images (e.g. HTTP status codes)                            |
 | `config/`        | VS Code profile, extensions list, and editor settings                |
 | `c/`             | C basics: data types, operators, control flow, arrays, structs       |
