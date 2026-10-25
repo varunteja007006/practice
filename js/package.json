@@ -1,6 +1,6 @@
 {
   "type": "module",
   "dependencies": {
-    "@supercharge/promise-pool": "^3.3.0"
+    "@supercharge/promise-pool": "3.3.0"
   }
 }
