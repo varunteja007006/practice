@@ -1,0 +1,30 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agents": {
+    "build": {
+      "permissions": [
+        {
+          "action": "subagent",
+          "resource": "commit-push",
+          "effect": "allow",
+        },
+        {
+          "action": "subagent",
+          "resource": "explorer",
+          "effect": "allow",
+        },
+        // {
+        //   "action": "subagent",
+        //   "resource": "subworker",
+        //   "effect": "allow"
+        // },
+        {
+          "action": "subagent",
+          "resource": "validator",
+          "effect": "allow",
+        },
+      ],
+    },
+  },
+  "instructions": ["~/.config/opencode/instructions/build-workflow.md"],
+}
